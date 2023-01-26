@@ -16,7 +16,6 @@
 let totalAmount = 1000;
 let oranges = 350;
 let apples = 350;
-
 let foodPrice = oranges + apples;
 let totalTaka = totalAmount - foodPrice
 
@@ -34,3 +33,11 @@ let bangla = 99.50;
 let totalSubjectMark = mathematics + biology + chemistry + physics + bangla;
 let totalSubjectResult = totalSubjectMark / 5;
 console.log(totalSubjectResult.toFixed(2));
+
+
+// 3 problem solution
+
+let first = "I am going to be";
+let second = "I am going to be an awesome web developer";
+let oneLine = first + second;
+console.log(oneLine);
